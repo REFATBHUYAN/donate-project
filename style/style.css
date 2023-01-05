@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    margin-bottom: 130px;
+}
+
+/* header section */
+.header-section {
+    text-align: center;
+    padding: 180px 300px;
+    background-size: 100% 100%;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+
+}
+
+header {
+    background-image: url('../images/donation0.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.header-discription {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 20px;
+    color: #FFFFFF;
+    border: 0;
+    margin-top: 30px;
+}
+
+/* donate section */
+.donate-section {
+    align-items: center;
+    text-align: center;
+}
+
+.donate-section h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.donate-btn {
+    padding: 40px 25px;
+    margin-left: 25px;
+    border: 0;
+    background: #FAFAFA;
+}
+
+.donate-section div {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.btn-secondary {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 40px 25px;
+    margin-left: 25px;
+}
+
+.donate-section hr {
+    width: 760px;
+    margin-top: 15px;
+    margin: 0 auto;
+}
+
+/* donate plan section */
+.donate-plan-title {
+    text-align: center;
+}
+
+.donate-plan-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.donate-plan-cart {
+    margin: 50px 160px 0px 160px;
+    display: flex;
+    gap: 24px;
+}
+
+.donate-plan-cart div {
+    width: 340px;
+    height: 310px;
+}
+
+.food {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 65px 23px;
+}
+.dp-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.shelter{
+    border-radius: 5px;
+    padding: 65px 23px;
+    background: rgba(255, 89, 89, 0.1);
+
+}
+.frame{
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 65px 23px;
+}
+.live-depend{
+    display: flex;
+}
